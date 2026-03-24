@@ -101,27 +101,27 @@ export default function ResidentAppShell({
 
               <nav className="overflow-x-auto pb-1">
                 <div className="flex min-w-max gap-2">
-          {NAV.map((item) => {
-            const active =
-              pathname === item.href ||
-              (item.href !== "/resident/dashboard" &&
-                pathname.startsWith(item.href));
-            const Icon = item.icon;
-            return (
-              <Link
-                key={item.href}
-                href={item.href}
-                className={`inline-flex items-center gap-2 rounded-2xl px-4 py-2.5 text-sm font-medium transition-colors ${
-                  active
-                    ? "bg-white text-slate-900 shadow-sm"
-                    : "text-slate-300 hover:bg-slate-800 hover:text-white"
-                }`}
-              >
-                <Icon className="h-4 w-4" />
-                {item.label}
-              </Link>
-            );
-          })}
+                  {NAV.map((item) => {
+                    const active =
+                      pathname === item.href ||
+                      (item.href !== "/resident/dashboard" &&
+                        pathname.startsWith(item.href));
+                    const Icon = item.icon;
+                    return (
+                      <Link
+                        key={item.href}
+                        href={item.href}
+                        className={`inline-flex items-center gap-2 rounded-2xl px-4 py-2.5 text-sm font-medium transition-colors ${
+                          active
+                            ? "bg-white text-slate-900 shadow-sm"
+                            : "text-slate-300 hover:bg-slate-800 hover:text-white"
+                        }`}
+                      >
+                        <Icon className="h-4 w-4" />
+                        {item.label}
+                      </Link>
+                    );
+                  })}
                 </div>
               </nav>
             </div>
