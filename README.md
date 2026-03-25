@@ -103,46 +103,6 @@ App URLs:
 - Frontend: `http://localhost:3000`
 - Backend: `http://localhost:8000`
 
-## Documentation
-
-Additional module notes and project docs are available in [`docs/`](/home/tanay-singh/Webdev/Project/society-subscription-management/docs).
-
-Useful files:
-
-- [`docs/PROJECT_CONTEXT.md`](/home/tanay-singh/Webdev/Project/society-subscription-management/docs/PROJECT_CONTEXT.md)
-- [`docs/API_CONTRACT.md`](/home/tanay-singh/Webdev/Project/society-subscription-management/docs/API_CONTRACT.md)
-- [`docs/DB_SCHEMA.md`](/home/tanay-singh/Webdev/Project/society-subscription-management/docs/DB_SCHEMA.md)
-
-## Screenshots
-
-Add your screenshots below by replacing the placeholders.
-
-### Landing / Login
-
-![Add screenshot here](./docs/screenshots/landing-or-login.png)
-
-### Admin Dashboard
-
-![Add screenshot here](./docs/screenshots/admin-dashboard.png)
-
-### Flats Management
-
-![Add screenshot here](./docs/screenshots/flats-management.png)
-
-### Monthly Records
-
-![Add screenshot here](./docs/screenshots/monthly-records.png)
-
-### Resident Dashboard
-
-![Add screenshot here](./docs/screenshots/resident-dashboard.png)
-
-## Future Improvements
-
-- Add automated tests
-- Improve role-based access handling
-- Add deployment instructions
-- Add screenshot assets and demo GIFs
 
 ## Author
 
